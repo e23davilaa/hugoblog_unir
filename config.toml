@@ -1,0 +1,17 @@
+baseurl = "\"
+title = "Hugo Blog - Unir"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Bienvenidos al Hugo Blog, de Unir"
+    description = "Trabajo, creación de un blog"
+    github = "https://github.com/e23davilaa"
+    email = "e.23davilaa@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
